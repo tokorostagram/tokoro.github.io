@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>○○税理士（士業）事務所</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="東大阪エリア対応の小さな事務所です。記帳・決算・申告から経営相談まで、誠実・丁寧にサポートします。">
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root { --fg:#222; --muted:#666; --line:#e6e6e6; --bg:#fff; --link:#0b63ce; }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:"Noto Sans JP",system-ui,-apple-system,sans-serif;color:var(--fg);background:var(--bg);line-height:1.85}
+    a{color:var(--link);text-decoration:none} a:hover{text-decoration:underline}
+    .wrap{max-width:960px;margin:auto;padding:24px}
+    header{padding:56px 24px;border-bottom:1px solid var(--line);text-align:center}
+    header h1{margin:0 0 8px 0;font-size:28px}
+    header p{margin:0;color:var(--muted)}
+    nav{display:flex;gap:16px;justify-content:center;margin-top:16px;flex-wrap:wrap}
+    nav a{font-size:14px}
+    section{padding:40px 0;border-bottom:1px solid var(--line)}
+    h2{margin:0 0 16px 0;font-size:22px;border-left:4px solid var(--fg);padding-left:10px}
+    .grid{display:grid;gap:20px}
+    @media(min-width:820px){ .grid.cols-2{grid-template-columns:1fr 1fr} .grid.cols-3{grid-template-columns:repeat(3,1fr)} }
+    ul{margin:0;padding-left:18px}
+    .card{border:1px solid var(--line);border-radius:8px;padding:16px;background:#fff}
+    .muted{color:var(--muted)}
+    .small{font-size:14px}
+    .btn{display:inline-block;background:#222;color:#fff;padding:10px 16px;border-radius:6px}
+    form input, form textarea{width:100%;padding:10px;border:1px solid var(--line);border-radius:6px;margin:6px 0 14px}
+    form button{appearance:none;border:0;background:#222;color:#fff;padding:12px 18px;border-radius:6px;cursor:pointer}
+    footer{padding:28px 24px;text-align:center;color:var(--muted)}
+    .table{width:100%;border-collapse:collapse}
+    .table th,.table td{border:1px solid var(--line);padding:10px;text-align:left}
+    .map{aspect-ratio:16/9;border:0;width:100%;border-radius:8px}
+  </style>
+
+  <!-- 構造化データ（ローカルビジネス） -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"AccountingService",
+    "name":"野老さや香税理士事務所",
+    "areaServed":"東大阪市",
+    "address":{"@type":"PostalAddress","addressRegion":"大阪府","addressLocality":"東大阪市","streetAddress":"足代X-X-XX ○○ビルXXX"},
+    "telephone":"+81-6-XXXX-XXXX",
+    "url":"https://tokoro.github.io",
+    "openingHours":"Mo-Fr 09:00-17:00",
+    "priceRange":"¥¥"
+  }
+  </script>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <h1>野老さや香税理士事務所</h1>
+    <p>小さな事務所だからこそ、柔軟で誠実に。東大阪エリアを中心に支援しています。</p>
+    <nav>
+      <a href="#greeting">ごあいさつ</a>
+      <a href="#service">業務案内</a>
+      <a href="#about">事務所案内</a>
+      <a href="#access">アクセス</a>
+      <a href="#contact">お問い合わせ</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- ごあいさつ -->
+  <section id="greeting">
+    <h2>ごあいさつ</h2>
+    <div class="grid cols-2">
+      <div>
+        <p>はじめまして。代表の野老さや香です。記帳・決算・申告の基本に忠実であること、そして数字を使って意思決定を助けることを大切にしています。長く良いお付き合いを通じて、お客様の成長に伴走します。</p>
+      </div>
+      <div class="card">
+        <strong>対応エリア</strong>
+        <ul class="small">
+          <li>東大阪市／大阪市／八尾市 ほかオンライン全国対応</li>
+          <li>平日 9:00–17:00（時間外は要予約）</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 業務案内 -->
+  <section id="service">
+    <h2>業務案内</h2>
+    <div class="grid cols-3">
+      <div class="card">
+        <strong>月次・決算・申告</strong>
+        <ul class="small">
+          <li>記帳・月次試算表</li>
+          <li>年次決算・法人/個人の申告</li>
+          <li>経理の省力化（クラウド会計）</li>
+        </ul>
+      </div>
+      <div class="card">
+        <strong>設立・創業支援</strong>
+        <ul class="small">
+          <li>会社設立・開業届サポート</li>
+          <li>資金繰り／補助金の相談</li>
+          <li>黒字決算を目指す体制づくり</li>
+        </ul>
+      </div>
+      <div class="card">
+        <strong>相続・事業承継</strong>
+        <ul class="small">
+          <li>相続税申告・生前対策</li>
+          <li>事業承継計画の策定支援</li>
+          <li>小規模企業共済 等の活用</li>
+        </ul>
+      </div>
+    </div>
+    <p class="small muted">※医療・建設など業種別の管理会計や部門別管理にも対応可能です。</p>
+  </section>
+
+  <!-- 事務所案内 -->
+  <section id="about">
+    <h2>事務所案内</h2>
+    <div class="grid cols-2">
+      <div>
+        <ul>
+          <li><strong>事務所名：</strong>野老さや香税理士事務所</li>
+          <li><strong>所在地：</strong>大阪府東大阪市足代X-X-XX ○○ビルXXX</li>
+          <li><strong>電話：</strong>06-XXXX-XXXX（平日9:00–17:00）</li>
+          <li><strong>メール：</strong>info@example.com</li>
+        </ul>
+      </div>
+      <div class="card">
+        <strong>プロフィール（例）</strong>
+        <p class="small">大阪府出身。会計事務所・事業会社経理を経て独立。現場に寄り添う支援をモットーに、中小企業・個人事業の経営改善や資金繰り、創業期の体制づくりを支援しています。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- アクセス -->
+  <section id="access">
+    <h2>アクセス</h2>
+    <p class="small">近鉄「布施」駅 徒歩2分。近隣にコインパーキングあり。</p>
+    <!-- Googleマップ（住所に合わせて埋め込みURLを差し替え） -->
+    <iframe class="map" loading="lazy"
+      src="https://www.google.com/maps?q=東大阪市足代&hl=ja&z=15&output=embed"
+      allowfullscreen></iframe>
+  </section>
+
+  <!-- お問い合わせ（Formspreeで指定アドレスに転送） -->
+  <section id="contact">
+    <h2>お問い合わせ</h2>
+    <form action="https://formspree.io/f/xxxxxx" method="POST">
+      <label>お名前</label>
+      <input type="text" name="name" required>
+      <label>メールアドレス</label>
+      <input type="email" name="_replyto" required>
+      <label>お問い合わせ内容</label>
+      <textarea name="message" rows="6" required></textarea>
+
+      <!-- スパム軽減：人間チェック（空欄のまま送信されるべき隠し項目） -->
+      <input type="text" name="_gotcha" style="display:none">
+
+      <!-- 送信後の遷移先（任意：サンクスページを作る場合） -->
+      <!-- <input type="hidden" name="_redirect" value="https://yourname.github.io/thanks.html"> -->
+
+      <button type="submit">送信する</button>
+      <p class="small muted">送信いただいた内容は暗号化(https)され、事務所の指定メールアドレスに転送されます。</p>
+    </form>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap small">© <span id="y"></span> ○○税理士（士業）事務所</div>
+</footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+
+</body>
+</html>
